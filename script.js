@@ -29,7 +29,7 @@ function jouerManche(choixJoueur) {
   <div id="card-img">
   <img src="${getImagePath(
     choixOrdi
-  )}" alt="${choixOrdi}" class="img-choices" style="width: 100px;">
+  )}" alt="${choixOrdi}" class="img-choices">
   </div>`;
 
   playerChoiceDiv.innerHTML = `<p>Le joueur</p>
@@ -37,7 +37,7 @@ function jouerManche(choixJoueur) {
 
   <img src="${getImagePath(
     choixJoueur
-  )}" alt="${choixJoueur}" class="img-choices" style="width: 100px;">
+  )}" alt="${choixJoueur}" class="img-choices">
   </div>`;
   let resultat = "";
 
