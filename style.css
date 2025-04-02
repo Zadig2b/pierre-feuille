@@ -123,3 +123,9 @@
     height: 50px;
   }
 }
+
+@media (max-width: 675px) {
+    #sub-container{
+        gap: 0px;
+    }
+  }
