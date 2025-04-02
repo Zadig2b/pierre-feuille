@@ -46,4 +46,4 @@ L'objectif principal est de :
 
 ## Captures d'Écran
 
-![Capture](Capture.png)
+![Capture](assets/Capture.png)
