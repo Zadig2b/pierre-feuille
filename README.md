@@ -3,7 +3,7 @@
 Ce projet est une solution au challenge **"Pierre, Feuille, Ciseaux"** en JavaScript.  
 L'objectif est de créer un jeu interactif dans lequel l'utilisateur joue contre l'ordinateur en choisissant entre "Pierre", "Feuille" ou "Ciseaux".
 
-Projet développé par [Quentin Zampieri](https://github.com/Quentin384) & [Christopher PEREZ](https://github.com/Chr1stopherPerez), en réponse à un brief proposé durant notre formation [SIMPLON](https://www.simplon.co/).
+Projet développé par [Quentin Zampieri](https://github.com/Quentin384) & [Romain DUGEAY](https://github.com/Zadig2b), en réponse à un brief proposé durant notre formation [SIMPLON](https://www.simplon.co/).
 
 ---
 
@@ -41,26 +41,6 @@ L'objectif principal est de :
 - **`styles.css`** : Fichier qui contient les styles
 - **`script.js`** : Fichier JavaScript qui contient toute la logique du jeu.
 - **`README.md`** : Documentation du projet
-
----
-
-## Installation
-
-1. **Cloner le projet sur le Github de Quentin**
-
-   ```bash
-   git clone https://github.com/Quentin384/JS-PierreFeuilleCiseaux.git
-   cd JS-PierreFeuilleCiseaux
-   ```
-
-2. **OU sur celui de Christopher**
-
-   ```bash
-   git clone https://github.com/Chr1stopherPerez/JS-PierreFeuilleCiseaux.git
-   cd JS-PierreFeuilleCiseaux
-   ```
-
-3. Ouvrir index.html dans ton navigateur pour visualiser le projet.
 
 ---
 
