@@ -25,15 +25,20 @@ function choixAleatoire() {
 function jouerManche(choixJoueur) {
   const choixOrdi = choixAleatoire();
   //   const choixJoueur = choixJoueur
-  botChoiceDiv.innerHTML = `<p>L'ordinateur a choisi :</p>
+  botChoiceDiv.innerHTML = `<p>L'ordinateur</p>
+  <div id="card-img">
   <img src="${getImagePath(
     choixOrdi
-  )}" alt="${choixOrdi}" class="img-choices" style="width: 100px;">`;
+  )}" alt="${choixOrdi}" class="img-choices" style="width: 100px;">
+  </div>`;
 
-  playerChoiceDiv.innerHTML = `<p>Le joueur a choisi :</p>
+  playerChoiceDiv.innerHTML = `<p>Le joueur</p>
+    <div id="card-img">
+
   <img src="${getImagePath(
     choixJoueur
-  )}" alt="${choixJoueur}" class="img-choices" style="width: 100px;">`;
+  )}" alt="${choixJoueur}" class="img-choices" style="width: 100px;">
+  </div>`;
   let resultat = "";
 
   if (choixJoueur === choixOrdi) {
